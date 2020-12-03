@@ -128,7 +128,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:background="@color/colorButton"
-                android:onClick="toLost"
+                android:onClick="showDialog"
                 android:text="Отправить"
                 android:textSize="14sp" />
 

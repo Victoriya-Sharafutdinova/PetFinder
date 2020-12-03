@@ -9,21 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MyListActivity"></activity>
+        <activity android:name=".MyListActivity" />
         <activity android:name=".AddActivity" />
-        <activity android:name=".MainActivity" />
-
-
-<!--        <receiver android:name=".CoordinatorLayout">-->
-<!--            <intent-filter>-->
-<!--                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />-->
-<!--            </intent-filter>-->
-
-<!--            <meta-data-->
-<!--                android:name="android.appwidget.provider"-->
-<!--                android:resource="@xml/coordinator_layout_info" />-->
-<!--        </receiver>-->
-
+        <activity android:name=".MainActivity" /> <!-- <receiver android:name=".CoordinatorLayout"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.appwidget.action.APPWIDGET_UPDATE" /> -->
+        <!-- </intent-filter> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.appwidget.provider" -->
+        <!-- android:resource="@xml/coordinator_layout_info" /> -->
+        <!-- </receiver> -->
         <activity android:name=".ComplaintActivity" />
         <activity android:name=".LostActivity">
             <intent-filter>
