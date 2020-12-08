@@ -16,10 +16,10 @@ class DialogComplaint: DialogFragment() {
 
         builder.setTitle("Внимание!")
         builder.setMessage("Вы действительно хотите оставить жалобу?")
-        builder.setPositiveButton("Да", DialogInterface.OnClickListener(){ dialogInterface: DialogInterface, i: Int ->
-            val intent = Intent(context, LostActivity::class.java )
+        builder.setPositiveButton("Да") { _: DialogInterface, i: Int ->
+            val intent = Intent(context, LostActivity::class.java)
             startActivity(intent)
-        })
+        }
         builder.setNegativeButton("Отмена", null)
         return builder.create()
 
